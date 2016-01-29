@@ -1,0 +1,900 @@
+SPACON SOM change limits  
+investigate parameter  
+all stations repeat that  
+proceed  
+wilco  
+roll call  
+copy  
+proceed  
+SOE SOM change limits  
+all stations wilco  
+SOM on LOOP ONE wilco  
+SOE SOM proceed  
+change limits  
+all stations change limits  
+proceed  
+SOE SOM investigate parameter sierra two kilo tango papa three one nine  
+change limits  
+SOM on LOOP ONE repeat  
+wilco  
+roll call  
+copy  
+SPACON SOM roll call  
+SOE SOM wilco  
+repeat  
+copy  
+wilco  
+roll call  
+copy  
+SPACON SOM copy  
+investigate parameter sierra two kilo tango papa three zero one  
+repeat  
+SOM on LOOP ONE roll call  
+SPACON SOM repeat  
+roll call  
+all stations roll call  
+SPACON SOM investigate parameter sierra two kilo tango papa three zero seven  
+investigate parameter SPELLING  
+change limits  
+copy  
+SPACON SOM roll call  
+investigate parameter SPELLING  
+all stations change limits  
+proceed  
+investigate parameter SPELLING  
+repeat  
+SOM on LOOP ONE proceed  
+SPACON SOM proceed  
+roll call  
+repeat  
+SOM on LOOP ONE repeat that  
+wilco  
+change limits  
+SOM on LOOP ONE change limits  
+wilco  
+roll call  
+all stations investigate parameter sierra two kilo tango papa three zero ate  
+SOM on LOOP ONE repeat  
+SOE SOM roll call  
+roll call  
+all stations roll call  
+proceed  
+roll call  
+all stations roll call  
+SOM on LOOP ONE repeat that  
+SOE SOM change limits  
+change limits  
+copy  
+SPACON SOM wilco  
+investigate parameter  
+repeat  
+SOM on LOOP ONE repeat  
+wilco  
+roll call  
+copy  
+proceed  
+investigate parameter  
+repeat  
+copy  
+SOE SOM investigate parameter  
+roll call  
+copy  
+SPACON SOM copy  
+SOE SOM proceed  
+repeat that  
+SOM on LOOP ONE roll call  
+SPACON SOM wilco  
+investigate parameter sierra two kilo tango papa three zero ate  
+copy  
+proceed  
+SOE SOM proceed  
+change limits  
+copy  
+wilco  
+investigate parameter SPELLING  
+all stations copy  
+SPACON SOM roll call  
+investigate parameter  
+repeat that  
+copy  
+wilco  
+investigate parameter sierra two kilo tango papa three one one  
+all stations copy  
+proceed  
+SOE SOM repeat  
+repeat that  
+SOM on LOOP ONE proceed  
+wilco  
+investigate parameter sierra two kilo tango papa three zero seven  
+repeat  
+SOM on LOOP ONE repeat  
+wilco  
+change limits  
+SOM on LOOP ONE copy  
+SPACON SOM repeat that  
+roll call  
+all stations proceed  
+proceed  
+wilco  
+roll call  
+copy  
+proceed  
+investigate parameter  
+all stations proceed  
+proceed  
+wilco  
+change limits  
+copy  
+SPACON SOM proceed  
+SOE SOM wilco  
+repeat  
+SOM on LOOP ONE roll call  
+wilco  
+roll call  
+copy  
+SPACON SOM copy  
+SOE SOM roll call  
+repeat that  
+copy  
+SOE SOM roll call  
+roll call  
+all stations roll call  
+SPACON SOM repeat that  
+investigate parameter sierra two kilo tango papa three one three  
+repeat  
+copy  
+SPACON SOM proceed  
+roll call  
+copy  
+SPACON SOM roll call  
+investigate parameter  
+repeat that  
+SOM on LOOP ONE change limits  
+wilco  
+investigate parameter sierra two kilo tango papa three zero six  
+repeat that  
+proceed  
+SOE SOM wilco  
+change limits  
+copy  
+SPACON SOM investigate parameter  
+roll call  
+repeat  
+SOM on LOOP ONE repeat  
+investigate parameter sierra two kilo tango papa three zero ate  
+change limits  
+copy  
+SPACON SOM wilco  
+roll call  
+all stations roll call  
+proceed  
+wilco  
+roll call  
+copy  
+SPACON SOM proceed  
+investigate parameter SPELLING  
+repeat  
+SOM on LOOP ONE wilco  
+wilco  
+change limits  
+copy  
+proceed  
+investigate parameter sierra two kilo tango papa three zero nine  
+all stations investigate parameter sierra two kilo tango papa three one zero  
+SOM on LOOP ONE wilco  
+wilco  
+roll call  
+copy  
+SPACON SOM investigate parameter SPELLING  
+investigate parameter SPELLING  
+repeat that  
+SOM on LOOP ONE proceed  
+SOE SOM roll call  
+change limits  
+all stations change limits  
+proceed  
+SOE SOM copy  
+repeat that  
+copy  
+SPACON SOM change limits  
+change limits  
+copy  
+SPACON SOM proceed  
+SOE SOM repeat  
+change limits  
+copy  
+wilco  
+investigate parameter  
+all stations investigate parameter  
+SPACON SOM copy  
+investigate parameter  
+repeat that  
+copy  
+wilco  
+roll call  
+all stations wilco  
+proceed  
+wilco  
+repeat  
+SOM on LOOP ONE change limits  
+wilco  
+roll call  
+all stations change limits  
+proceed  
+SOE SOM change limits  
+change limits  
+copy  
+wilco  
+roll call  
+repeat that  
+SOM on LOOP ONE roll call  
+wilco  
+change limits  
+copy  
+SPACON SOM change limits  
+investigate parameter  
+repeat that  
+SOM on LOOP ONE wilco  
+SOE SOM wilco  
+change limits  
+all stations proceed  
+proceed  
+SOE SOM proceed  
+all stations roll call  
+proceed  
+wilco  
+change limits  
+all stations change limits  
+SPACON SOM wilco  
+investigate parameter  
+repeat that  
+SOM on LOOP ONE roll call  
+wilco  
+change limits  
+all stations copy  
+proceed  
+SOE SOM repeat  
+change limits  
+SOM on LOOP ONE change limits  
+SPACON SOM investigate parameter sierra two kilo tango papa three zero two  
+change limits  
+all stations wilco  
+proceed  
+SOE SOM wilco  
+repeat that  
+copy  
+SPACON SOM repeat that  
+roll call  
+all stations proceed  
+proceed  
+investigate parameter sierra two kilo tango papa three one five  
+change limits  
+SOM on LOOP ONE copy  
+wilco  
+investigate parameter SPELLING  
+all stations change limits  
+SOM on LOOP ONE wilco  
+SOE SOM investigate parameter  
+repeat  
+SOM on LOOP ONE copy  
+SPACON SOM change limits  
+roll call  
+all stations copy  
+proceed  
+wilco  
+change limits  
+SOM on LOOP ONE copy  
+SPACON SOM copy  
+roll call  
+all stations wilco  
+proceed  
+wilco  
+roll call  
+copy  
+proceed  
+investigate parameter SPELLING  
+repeat that  
+proceed  
+SOE SOM proceed  
+change limits  
+copy  
+proceed  
+investigate parameter  
+all stations proceed  
+SOM on LOOP ONE roll call  
+SOE SOM change limits  
+change limits  
+copy  
+proceed  
+investigate parameter  
+change limits  
+SOM on LOOP ONE proceed  
+SOE SOM repeat  
+roll call  
+all stations roll call  
+proceed  
+investigate parameter  
+repeat  
+copy  
+SPACON SOM wilco  
+investigate parameter  
+all stations roll call  
+SPACON SOM investigate parameter SPELLING  
+investigate parameter sierra two kilo tango papa three zero five  
+change limits  
+SOM on LOOP ONE change limits  
+wilco  
+roll call  
+repeat that  
+SOM on LOOP ONE repeat  
+investigate parameter SPELLING  
+change limits  
+SOM on LOOP ONE copy  
+wilco  
+investigate parameter sierra two kilo tango papa three one two  
+repeat that  
+SOM on LOOP ONE wilco  
+wilco  
+change limits  
+copy  
+wilco  
+roll call  
+all stations repeat  
+SOM on LOOP ONE wilco  
+SOE SOM proceed  
+roll call  
+all stations proceed  
+SPACON SOM wilco  
+roll call  
+all stations proceed  
+proceed  
+wilco  
+change limits  
+all stations copy  
+proceed  
+investigate parameter  
+repeat  
+proceed  
+wilco  
+change limits  
+all stations repeat  
+SPACON SOM change limits  
+SOE SOM roll call  
+repeat that  
+SOM on LOOP ONE change limits  
+wilco  
+roll call  
+copy  
+SPACON SOM investigate parameter SPELLING  
+SOE SOM change limits  
+change limits  
+SOM on LOOP ONE change limits  
+SPACON SOM wilco  
+roll call  
+copy  
+SPACON SOM repeat that  
+SOE SOM copy  
+change limits  
+SOM on LOOP ONE copy  
+wilco  
+roll call  
+repeat that  
+proceed  
+SOE SOM investigate parameter  
+repeat that  
+SOM on LOOP ONE copy  
+wilco  
+roll call  
+repeat  
+SOM on LOOP ONE roll call  
+investigate parameter  
+repeat that  
+copy  
+wilco  
+investigate parameter sierra two kilo tango papa three zero five  
+all stations wilco  
+proceed  
+SOE SOM roll call  
+roll call  
+copy  
+wilco  
+investigate parameter SPELLING  
+all stations roll call  
+SOM on LOOP ONE roll call  
+wilco  
+change limits  
+all stations copy  
+proceed  
+investigate parameter  
+all stations copy  
+proceed  
+wilco  
+roll call  
+copy  
+proceed  
+investigate parameter  
+change limits  
+SOM on LOOP ONE change limits  
+wilco  
+roll call  
+copy  
+SPACON SOM investigate parameter SPELLING  
+SOE SOM proceed  
+change limits  
+copy  
+wilco  
+roll call  
+copy  
+proceed  
+investigate parameter sierra two kilo tango papa three one five  
+change limits  
+copy  
+wilco  
+roll call  
+all stations copy  
+SPACON SOM proceed  
+investigate parameter  
+change limits  
+SOM on LOOP ONE copy  
+wilco  
+investigate parameter  
+repeat that  
+SPACON SOM copy  
+SOE SOM wilco  
+change limits  
+copy  
+SPACON SOM wilco  
+roll call  
+all stations wilco  
+proceed  
+SOE SOM proceed  
+change limits  
+copy  
+SPACON SOM wilco  
+roll call  
+all stations change limits  
+SOM on LOOP ONE roll call  
+wilco  
+roll call  
+SOM on LOOP ONE repeat  
+SPACON SOM proceed  
+investigate parameter  
+repeat that  
+SOM on LOOP ONE roll call  
+SOE SOM repeat that  
+change limits  
+all stations wilco  
+SPACON SOM copy  
+investigate parameter sierra two kilo tango papa three zero three  
+all stations investigate parameter SPELLING  
+proceed  
+wilco  
+change limits  
+all stations roll call  
+proceed  
+SOE SOM change limits  
+change limits  
+SOM on LOOP ONE proceed  
+SOE SOM roll call  
+change limits  
+copy  
+proceed  
+investigate parameter  
+change limits  
+copy  
+SPACON SOM copy  
+roll call  
+all stations investigate parameter  
+proceed  
+SOE SOM repeat that  
+change limits  
+copy  
+SPACON SOM repeat  
+investigate parameter sierra two kilo tango papa three zero two  
+all stations wilco  
+proceed  
+SOE SOM proceed  
+change limits  
+SOM on LOOP ONE copy  
+wilco  
+investigate parameter SPELLING  
+repeat that  
+SPACON SOM investigate parameter  
+SOE SOM proceed  
+change limits  
+copy  
+wilco  
+investigate parameter  
+all stations proceed  
+proceed  
+wilco  
+change limits  
+copy  
+wilco  
+investigate parameter  
+all stations investigate parameter sierra two kilo tango papa three zero three  
+proceed  
+wilco  
+roll call  
+SOM on LOOP ONE wilco  
+wilco  
+investigate parameter sierra two kilo tango papa three zero three  
+all stations wilco  
+proceed  
+SOE SOM roll call  
+roll call  
+copy  
+proceed  
+SOE SOM change limits  
+all stations proceed  
+proceed  
+SOE SOM change limits  
+change limits  
+all stations change limits  
+SPACON SOM roll call  
+SOE SOM repeat that  
+repeat that  
+proceed  
+SOE SOM investigate parameter SPELLING  
+change limits  
+all stations investigate parameter  
+SPACON SOM proceed  
+investigate parameter  
+repeat  
+copy  
+SPACON SOM repeat  
+change limits  
+copy  
+SPACON SOM investigate parameter sierra two kilo tango papa three zero one  
+investigate parameter sierra two kilo tango papa three one nine  
+repeat  
+copy  
+SPACON SOM wilco  
+roll call  
+all stations proceed  
+SPACON SOM wilco  
+investigate parameter SPELLING  
+repeat that  
+SOM on LOOP ONE repeat that  
+SPACON SOM change limits  
+investigate parameter  
+repeat  
+proceed  
+SOE SOM repeat  
+repeat  
+SOM on LOOP ONE repeat  
+SPACON SOM copy  
+roll call  
+all stations repeat  
+SOM on LOOP ONE roll call  
+wilco  
+change limits  
+SOM on LOOP ONE wilco  
+wilco  
+investigate parameter SPELLING  
+repeat that  
+proceed  
+wilco  
+change limits  
+copy  
+SPACON SOM wilco  
+roll call  
+repeat that  
+proceed  
+SOE SOM proceed  
+change limits  
+all stations investigate parameter sierra two kilo tango papa three one two  
+SPACON SOM roll call  
+investigate parameter SPELLING  
+repeat  
+SOM on LOOP ONE copy  
+SOE SOM investigate parameter SPELLING  
+roll call  
+copy  
+proceed  
+SOE SOM wilco  
+repeat  
+SOM on LOOP ONE investigate parameter SPELLING  
+wilco  
+change limits  
+all stations roll call  
+SPACON SOM repeat  
+investigate parameter SPELLING  
+repeat  
+copy  
+wilco  
+roll call  
+all stations proceed  
+proceed  
+investigate parameter SPELLING  
+change limits  
+SOM on LOOP ONE investigate parameter SPELLING  
+SPACON SOM change limits  
+investigate parameter sierra two kilo tango papa three zero zero  
+repeat  
+SPACON SOM roll call  
+investigate parameter SPELLING  
+change limits  
+copy  
+SPACON SOM investigate parameter  
+roll call  
+all stations investigate parameter SPELLING  
+proceed  
+wilco  
+change limits  
+copy  
+wilco  
+investigate parameter SPELLING  
+repeat that  
+proceed  
+wilco  
+roll call  
+all stations change limits  
+SPACON SOM roll call  
+investigate parameter SPELLING  
+all stations change limits  
+proceed  
+SOE SOM copy  
+roll call  
+copy  
+proceed  
+investigate parameter SPELLING  
+all stations change limits  
+SOM on LOOP ONE change limits  
+SOE SOM repeat that  
+change limits  
+all stations wilco  
+proceed  
+SOE SOM roll call  
+repeat that  
+SOM on LOOP ONE investigate parameter SPELLING  
+SOE SOM wilco  
+change limits  
+copy  
+SPACON SOM investigate parameter sierra two kilo tango papa three one seven  
+SOE SOM proceed  
+repeat that  
+SOM on LOOP ONE copy  
+wilco  
+change limits  
+copy  
+SPACON SOM roll call  
+investigate parameter SPELLING  
+repeat that  
+SOM on LOOP ONE repeat  
+wilco  
+roll call  
+all stations copy  
+SPACON SOM proceed  
+investigate parameter  
+change limits  
+SOM on LOOP ONE repeat  
+SPACON SOM copy  
+roll call  
+all stations wilco  
+proceed  
+investigate parameter  
+repeat  
+SOM on LOOP ONE repeat that  
+wilco  
+investigate parameter sierra two kilo tango papa three zero six  
+all stations roll call  
+proceed  
+SOE SOM proceed  
+change limits  
+SOM on LOOP ONE repeat  
+wilco  
+roll call  
+repeat  
+SOM on LOOP ONE change limits  
+wilco  
+change limits  
+copy  
+wilco  
+investigate parameter sierra two kilo tango papa three one two  
+all stations copy  
+SOM on LOOP ONE change limits  
+SOE SOM repeat that  
+roll call  
+all stations wilco  
+SPACON SOM investigate parameter sierra two kilo tango papa three zero three  
+roll call  
+repeat  
+proceed  
+wilco  
+change limits  
+copy  
+SPACON SOM repeat  
+investigate parameter SPELLING  
+repeat that  
+copy  
+SOE SOM change limits  
+roll call  
+all stations change limits  
+proceed  
+SOE SOM repeat that  
+change limits  
+copy  
+wilco  
+roll call  
+all stations investigate parameter sierra two kilo tango papa three one five  
+SPACON SOM change limits  
+SOE SOM repeat that  
+change limits  
+copy  
+wilco  
+investigate parameter sierra two kilo tango papa three one nine  
+all stations repeat that  
+proceed  
+investigate parameter sierra two kilo tango papa three one four  
+change limits  
+SOM on LOOP ONE repeat that  
+wilco  
+investigate parameter SPELLING  
+repeat that  
+proceed  
+SOE SOM change limits  
+change limits  
+copy  
+SPACON SOM proceed  
+investigate parameter SPELLING  
+all stations copy  
+SOM on LOOP ONE copy  
+wilco  
+change limits  
+copy  
+wilco  
+investigate parameter sierra two kilo tango papa three one two  
+all stations copy  
+proceed  
+SOE SOM repeat  
+change limits  
+copy  
+wilco  
+roll call  
+repeat that  
+proceed  
+wilco  
+roll call  
+copy  
+proceed  
+investigate parameter SPELLING  
+all stations roll call  
+SOM on LOOP ONE investigate parameter sierra two kilo tango papa three one nine  
+SOE SOM change limits  
+change limits  
+copy  
+proceed  
+SOE SOM investigate parameter sierra two kilo tango papa three zero three  
+repeat that  
+SOM on LOOP ONE repeat that  
+wilco  
+roll call  
+copy  
+proceed  
+SOE SOM roll call  
+repeat that  
+copy  
+SPACON SOM wilco  
+change limits  
+copy  
+proceed  
+investigate parameter  
+repeat  
+SOM on LOOP ONE repeat that  
+SPACON SOM roll call  
+roll call  
+all stations change limits  
+proceed  
+SOE SOM copy  
+repeat  
+SOM on LOOP ONE wilco  
+SPACON SOM change limits  
+roll call  
+all stations change limits  
+SOM on LOOP ONE change limits  
+investigate parameter  
+change limits  
+copy  
+wilco  
+roll call  
+all stations repeat  
+SOM on LOOP ONE copy  
+SOE SOM wilco  
+change limits  
+copy  
+SPACON SOM repeat  
+investigate parameter sierra two kilo tango papa three zero five  
+repeat  
+SOM on LOOP ONE copy  
+wilco  
+change limits  
+copy  
+SPACON SOM roll call  
+roll call  
+all stations proceed  
+proceed  
+SOE SOM copy  
+roll call  
+all stations copy  
+SPACON SOM proceed  
+investigate parameter  
+change limits  
+SOM on LOOP ONE investigate parameter SPELLING  
+SOE SOM investigate parameter  
+roll call  
+all stations repeat  
+proceed  
+investigate parameter  
+change limits  
+SOM on LOOP ONE investigate parameter SPELLING  
+wilco  
+change limits  
+all stations roll call  
+proceed  
+SOE SOM change limits  
+repeat  
+copy  
+wilco  
+change limits  
+all stations proceed  
+SPACON SOM wilco  
+SOE SOM investigate parameter sierra two kilo tango papa three one seven  
+repeat that  
+SOM on LOOP ONE wilco  
+wilco  
+roll call  
+repeat  
+SOM on LOOP ONE copy  
+investigate parameter  
+repeat that  
+SOM on LOOP ONE roll call  
+wilco  
+investigate parameter  
+repeat that  
+SOM on LOOP ONE copy  
+wilco  
+change limits  
+copy  
+wilco  
+roll call  
+all stations roll call  
+proceed  
+SOE SOM change limits  
+change limits  
+copy  
+wilco  
+roll call  
+repeat that  
+SOM on LOOP ONE investigate parameter SPELLING  
+wilco  
+roll call  
+copy  
+proceed  
+investigate parameter  
+repeat that  
+SOM on LOOP ONE repeat  
+wilco  
+change limits  
+all stations wilco  
+SPACON SOM copy  
+SOE SOM roll call  
+repeat that  
+copy  
+SOE SOM roll call  
+roll call  
+all stations proceed  
+proceed  
+investigate parameter SPELLING  
+change limits  
+SOM on LOOP ONE wilco  
+SPACON SOM roll call  
+change limits  
+all stations change limits  
+proceed  
+SOE SOM copy  
+change limits  
+copy  
+wilco  
+roll call  
+all stations copy  

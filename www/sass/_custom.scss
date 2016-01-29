@@ -1,0 +1,172 @@
+// MATES custom SCSS 
+
+$bottom-tabs-height: 250px;
+$scenario-control-height: 45px;
+
+.row.bottom-offset {
+	min-height: 50px; 
+}
+
+.valign:before {
+	height: 150px;
+	@include respond(landscape-phones) {
+	   height: 60px;
+	}
+	@include respond(portrait-phones) {
+	   height: 90px;
+	}
+
+}
+
+.valign.slim:before {
+	height: 30px;
+}
+
+.recognition {
+	color: #666666;
+	font-weight: regular;
+}
+
+.recognition.final {
+	color: #ffffff;
+	-webkit-animation: onFinalRec 5s; /* Chrome, Safari, Opera */
+	animation: onFinalRec 3s;
+}
+
+
+table.loop {
+
+	width: 960px / 12 * 7 * 0.9;
+
+	@include respond(landscape-phones) {
+	   width: $tablet-device-width * 0.6;
+	}
+
+	@include respond(portrait-phones) {
+	   width: $min-device-width * 0.7;
+	}
+
+	tr td:first-child {
+		width: 60px;
+		font-weight: bold;
+	}
+
+	tr td:nth-child(2) {
+		width: 960px / 12 * 7 * 0.9 - 2 * 60px;
+		font-weight: regular;
+	}
+
+	tr td:nth-child(3) {
+		width: 60px;
+		font-weight: bold;
+	}
+}
+
+#scenario-div {
+	overflow:auto;
+	width: 960px / 12 * 8 * 0.9;
+
+	max-height:$bottom-tabs-height - $scenario-control-height; 
+	min-height:$bottom-tabs-height - $scenario-control-height; 
+
+	tr td:first-child {
+		width: 60px;
+		font-weight: bold;
+	}
+
+	tr td:nth-child(2) {
+		width: 960px / 12 * 7 * 0.9 - 60px;
+		font-weight: regular;
+	}
+}
+
+#loop1-div {
+    overflow:auto;
+    max-height:250px; 
+
+	@include respond(landscape-phones) {
+	   max-height: 100px;
+	   min-height: 100px;
+	}
+
+	@include respond(portrait-phones) {
+	   max-height: 200px;
+	   min-height: 200px;
+	}
+}
+
+#msg {
+	width: 70%;
+
+	@include respond(landscape-phones) {
+	   width: $tablet-device-width * 0.45;
+	}
+
+	@include respond(portrait-phones) {
+	   width: $min-device-width * 0.4;
+	}
+}
+
+.hideme {
+	display: none;
+}
+
+.hideme.active {
+	display: block;
+}
+
+.row.bottom {
+	max-height:$bottom-tabs-height + $tab-height; 
+	min-height:$bottom-tabs-height + $tab-height; 
+}
+
+.tab-content.bottom {
+	max-height:$bottom-tabs-height; 
+	min-height:$bottom-tabs-height; 
+	overflow:auto;
+}
+
+
+// goRESPONSIVE!
+//  - we consider only phones for now
+
+
+// elemnts visibility
+.not-on-phones {
+	@include hidden(all-phones);
+}
+
+.only-on-phones {
+	@include hidden(desktop);
+}
+
+// input size
+@include respond(desktop) {
+  .text.input { @include input-size(xwide); }
+}
+
+@include respond(landscape-phones) {
+  .text.input { @include input-size(wide); }
+}
+
+@include respond(portrait-phones) {
+  .text.input { @include input-size(wide); }
+}
+
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes onFinalRec {
+    0%   {color: #666666; font-weight: regular;}
+    10%  {color: #000000; font-weight: bold;}
+    100% {color: #ffffff; font-weight: regular;}
+}
+
+/* Standard syntax */
+@keyframes onFinalRec {
+    0%   {color: #666666; font-weight: regular;}
+    10%  {color: #000000; font-weight: bold;}
+    100% {color: #ffffff; font-weight: regular;}
+}
+
+
+@import "_d3.scss";

@@ -1,0 +1,40 @@
+fst type                                          vector
+arc type                                          log
+input symbol table                                voiceloop.sym
+output symbol table                               none
+# of states                                       39
+# of arcs                                         76
+initial state                                     0
+# of final states                                 11
+# of input/output epsilons                        0
+# of input epsilons                               0
+# of output epsilons                              0
+input label multiplicity                          1
+output label multiplicity                         1
+# of accessible states                            39
+# of coaccessible states                          39
+# of connected states                             39
+# of connected components                         1
+# of strongly conn components                     39
+input matcher                                     n
+output matcher                                    n
+input lookahead                                   n
+output lookahead                                  n
+expanded                                          y
+mutable                                           y
+error                                             n
+acceptor                                          y
+input deterministic                               y
+output deterministic                              y
+input/output epsilons                             n
+input epsilons                                    n
+output epsilons                                   n
+input label sorted                                n
+output label sorted                               n
+weighted                                          y
+cyclic                                            n
+cyclic at initial state                           n
+top sorted                                        n
+accessible                                        y
+coaccessible                                      y
+string                                            n

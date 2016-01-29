@@ -1,0 +1,73 @@
+     15 all stations change limits  
+     14 all stations copy  
+      3 all stations investigate parameter  
+      1 all stations investigate parameter sierra two kilo tango papa three one five  
+      1 all stations investigate parameter sierra two kilo tango papa three one two  
+      1 all stations investigate parameter sierra two kilo tango papa three one zero  
+      1 all stations investigate parameter sierra two kilo tango papa three zero ate  
+      1 all stations investigate parameter sierra two kilo tango papa three zero three  
+      2 all stations investigate parameter SPELLING  
+     14 all stations proceed  
+      5 all stations repeat  
+      2 all stations repeat that  
+     15 all stations roll call  
+     13 all stations wilco  
+     87 change limits  
+     85 copy  
+     35 investigate parameter  
+      2 investigate parameter sierra two kilo tango papa three one five  
+      1 investigate parameter sierra two kilo tango papa three one four  
+      2 investigate parameter sierra two kilo tango papa three one nine  
+      1 investigate parameter sierra two kilo tango papa three one one  
+      1 investigate parameter sierra two kilo tango papa three one three  
+      3 investigate parameter sierra two kilo tango papa three one two  
+      2 investigate parameter sierra two kilo tango papa three zero ate  
+      3 investigate parameter sierra two kilo tango papa three zero five  
+      1 investigate parameter sierra two kilo tango papa three zero nine  
+      1 investigate parameter sierra two kilo tango papa three zero one  
+      1 investigate parameter sierra two kilo tango papa three zero seven  
+      2 investigate parameter sierra two kilo tango papa three zero six  
+      2 investigate parameter sierra two kilo tango papa three zero three  
+      1 investigate parameter sierra two kilo tango papa three zero two  
+      1 investigate parameter sierra two kilo tango papa three zero zero  
+     26 investigate parameter SPELLING  
+     80 proceed  
+     32 repeat  
+     42 repeat that  
+     76 roll call  
+     13 SOE SOM change limits  
+      6 SOE SOM copy  
+      4 SOE SOM investigate parameter  
+      1 SOE SOM investigate parameter sierra two kilo tango papa three one nine  
+      1 SOE SOM investigate parameter sierra two kilo tango papa three one seven  
+      1 SOE SOM investigate parameter sierra two kilo tango papa three zero three  
+      2 SOE SOM investigate parameter SPELLING  
+     13 SOE SOM proceed  
+      6 SOE SOM repeat  
+      7 SOE SOM repeat that  
+     12 SOE SOM roll call  
+      9 SOE SOM wilco  
+     12 SOM on LOOP ONE change limits  
+     16 SOM on LOOP ONE copy  
+      1 SOM on LOOP ONE investigate parameter sierra two kilo tango papa three one nine  
+      6 SOM on LOOP ONE investigate parameter SPELLING  
+      5 SOM on LOOP ONE proceed  
+     12 SOM on LOOP ONE repeat  
+      7 SOM on LOOP ONE repeat that  
+     12 SOM on LOOP ONE roll call  
+     12 SOM on LOOP ONE wilco  
+      9 SPACON SOM change limits  
+     11 SPACON SOM copy  
+      3 SPACON SOM investigate parameter  
+      1 SPACON SOM investigate parameter sierra two kilo tango papa three one seven  
+      1 SPACON SOM investigate parameter sierra two kilo tango papa three zero one  
+      1 SPACON SOM investigate parameter sierra two kilo tango papa three zero seven  
+      1 SPACON SOM investigate parameter sierra two kilo tango papa three zero three  
+      1 SPACON SOM investigate parameter sierra two kilo tango papa three zero two  
+      4 SPACON SOM investigate parameter SPELLING  
+     11 SPACON SOM proceed  
+      6 SPACON SOM repeat  
+      4 SPACON SOM repeat that  
+     12 SPACON SOM roll call  
+     14 SPACON SOM wilco  
+     88 wilco  

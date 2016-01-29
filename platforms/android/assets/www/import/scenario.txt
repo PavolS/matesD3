@@ -1,0 +1,18 @@
+# Scenario content file, format:
+# - well this is a comment
+# - otherwise ^<speaker>\t<content>$, where speaker needs to be in capitals!
+SOM	All Stations roll call.
+SOE	SOM SOE Ready for Operations
+SPACON	SOM SPACON Ready for Operations
+SOE	All stations we have AOS
+SOE	SOM SOE: Parameter S2KTP313 is out of limits. Investigation needed.
+SOM	investigate parameter
+SOE	Copy
+SOE	SOM SOE we have to change limits
+SOM	SOE SOM Proceed
+SOE	Wilco
+SOE	SPACON SOE Please set limits 0 to 0 for Parameter S2KTP313
+SPACON	Copy, change limits for s2KTP313 to min 0 and max 0 
+SPACON	SOE SPACON Limits changed. Please verify!
+SOE	copy, standby.
+SOE	SOM SOE, Parameter now within limits. Issue resolved

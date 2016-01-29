@@ -1,0 +1,166 @@
+svg {
+  background-color: #FFF;
+  cursor: default;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
+
+svg:not(.active):not(.ctrl) {
+  cursor: crosshair;
+}
+
+path.link {
+  fill: none;
+  stroke: #000;
+  stroke-width: 1px;
+  cursor: default;
+}
+
+svg:not(.active):not(.ctrl) path.link {
+  cursor: pointer;
+}
+
+path.link.activated {
+  -webkit-animation: onSpeak-edge 3s; /* Chrome, Safari, Opera */
+  animation: onSpeak-edge 3s;
+}
+
+path.link.dragline {
+  stroke-dasharray: 10,2;
+  pointer-events: none;
+}
+
+path.link.hidden {
+  stroke-width: 0;
+}
+
+circle.node {
+  stroke-width: 0px;
+  cursor: pointer;
+  fill: $default-color;
+}
+
+circle.node.som {
+  stroke: #000 !important;
+  stroke-width: 2px;
+  fill: white;
+}
+
+circle.node.soe {
+  stroke: #000 !important;
+  stroke-width: 1px;
+  fill: $primary-hover-color;
+}
+
+circle.node.spacon {
+  stroke: #000 !important;
+  stroke-width: 1px;
+  fill: $warning-color;
+}
+
+circle.node.loop {
+  stroke: #000 !important;
+  stroke-width: 1px;
+  fill: $default-color;
+}
+
+circle.node.loopConnected {
+  stroke: #000 !important;
+  stroke-width: 1px;
+  fill: $success-color;
+  -webkit-animation: onConnect 3s; /* Chrome, Safari, Opera */
+  animation: onConnect 3s;
+}
+
+circle.node.loopSpeaking {
+  stroke: #000 !important;
+  stroke-width: 1px;
+  fill: $success-color;
+  -webkit-animation: onSpeak 3s; /* Chrome, Safari, Opera */
+  animation: onSpeak 3s;
+
+    -webkit-animation-iteration-count: 3;
+    -webkit-animation-direction: alternate;
+    animation-iteration-count: 3;
+    animation-direction: alternate;
+}
+
+circle.node.loopDisconnected {
+  stroke: #000 !important;
+  stroke-width: 1px;
+  -webkit-animation: onDisconnect 3s; /* Chrome, Safari, Opera */
+  animation: onDisconnect 3s;
+}
+
+text {
+  font: 12px sans-serif;
+  text-anchor: middle;
+  pointer-events: none;
+}
+
+text.id {
+  font-weight: bold;
+}
+
+text.message {
+  font-weight: regular;
+}
+
+
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes onConnect {
+    0%   {fill: $default-color;}
+    20%  {fill: $success-hover-color;}
+    100% {fill: $success-color;}
+}
+
+/* Standard syntax */
+@keyframes onConnect {
+    0%   {fill: $default-color;}
+    20%  {fill: $success-hover-color;}
+    100% {fill: $success-color;}
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes onDisconnect {
+    0%   {fill: $success-color;}
+    20%  {fill: $danger-hover-color;}
+    100% {fill: $default-color;}
+}
+
+/* Standard syntax */
+@keyframes onDisconnect {
+    0%   {fill: $success-color;}
+    20%  {fill: $danger-hover-color;}
+    100% {fill: $default-color;}
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes onSpeak-loop {
+    from  {fill: $success-color;}
+    to {fill: $danger-hover-color;}
+}
+
+/* Standard syntax */
+@keyframes onSpeak-loop {
+    from  {fill: $success-color;}
+    to {fill: $danger-hover-color;}
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes onSpeak-edge {
+    from  {  stroke: $success-hover-color;  stroke-width: 3px;}
+    to  {  stroke: #000;  stroke-width: 1px;}
+}
+
+/* Standard syntax */
+@keyframes onSpeak-edge {
+    from  {  stroke: $success-hover-color;  stroke-width: 3px;}
+    to  {  stroke: #000;  stroke-width: 1px;}
+}
+
+

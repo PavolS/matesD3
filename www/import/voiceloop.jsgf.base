@@ -1,0 +1,119 @@
+#JSGF V1.0;
+/**
+ * JSGF Grammar for SCO voiceloop (with SOM as the only speaker and SOE, SPACON agents, plus LOOP ONE)
+ */
+
+
+grammar voiceloop;
+
+// - similar to e.g. perl modules . translates to / in file structure
+
+// nested dependencies
+
+// this file's dependencies
+
+
+// the only public, i.e. the only (final) accepted statement
+//
+public <voiceloop> = <voiceloop_standard> | <voiceloop_broadcast>;
+
+
+// voiceloop composition
+//
+<voiceloop_broadcast> = ( <speaker> on LOOP ONE <voiceloop.content> | all stations <voiceloop.content> ) <polite.loopend>;
+<voiceloop_standard> = (<target> <speaker>  | <NULL>) <voiceloop.content>;
+
+<speaker> = <fromto.from1> SOM <fromto.from2>;
+<target> = <fromto.to> <polite.to> ( SOE | SPACON );
+
+//
+<voiceloop.content> = <fill.start> <polite.start> <demo.content> ( <polite.end> | <fill.end> );
+
+
+
+// Start merge with /lhome1/pavol/git-repos/MATES/mates-parent/mates-grammars/data/phoneticAlphabet/dictFriendly.jsgf:phoneticAlphabet ...
+<phoneticAlphabet.spelling> = <phoneticAlphabet.spelling-letter>* | SPELLING;
+<phoneticAlphabet.spelling-letter> = 
+	capital |
+	Alpha | 
+	Juliet | 
+	Sierra | 
+	Bravo | 
+	Kilo | 
+	Tango | 
+	Charlie | 
+	Lima | 
+	Uniform | 
+	Delta | 
+	Mike | 
+	Victor | 
+	Echo | 
+	November | 
+	Whiskey | 
+	Foxtrot | 
+	Oscar | 
+	X ray | 
+	Golf | 
+	Papa | 
+	Yankee | 
+	Hotel | 
+	Quebec | 
+	Zulu | 
+	India | 
+	Romeo | 
+	one | 
+	five | 
+	nine | 
+	two | 
+	six | 
+	zero | 
+	three | 
+	seven |
+	decimal | 
+	four | 
+	ate | 
+	thousand ;
+// .. end merge with /lhome1/pavol/git-repos/MATES/mates-parent/mates-grammars/data/phoneticAlphabet/dictFriendly.jsgf:phoneticAlphabet.
+
+// Start merge with /lhome1/pavol/git-repos/MATES/mates-parent/mates-grammars/data/scos/parameter.jsgf:parameter ...
+<parameter.s2k_param> = <phoneticAlphabet.spelling> ;
+// .. end merge with /lhome1/pavol/git-repos/MATES/mates-parent/mates-grammars/data/scos/parameter.jsgf:parameter.
+
+// Start merge with /lhome1/pavol/git-repos/MATES/mates-parent/mates-grammars/data/noise/fill.jsgf:fill ...
+<fill.start> = <NULL>;
+<fill.end> = <NULL>;
+<fill.startOrEndFill> = <NULL>;
+// .. end merge with /lhome1/pavol/git-repos/MATES/mates-parent/mates-grammars/data/noise/fill.jsgf:fill.
+
+// Start merge with /lhome1/pavol/git-repos/MATES/mates-parent/mates-grammars/data/noise/fromto.jsgf:fromto ...
+<fromto.from1> = <NULL> | ( this | here ) ( <NULL> | is )  ;
+<fromto.from2> = <NULL>;
+<fromto.to> = <NULL> | to | for ;
+// .. end merge with /lhome1/pavol/git-repos/MATES/mates-parent/mates-grammars/data/noise/fromto.jsgf:fromto.
+
+// Start merge with /lhome1/pavol/git-repos/MATES/mates-parent/mates-grammars/data/noise/polite.jsgf:polite ...
+<polite.start> = [ please | kindly | could you ];
+<polite.to> = <NULL>;
+<polite.end> = [ please | thanks | thank you ];
+<polite.loopend> = <NULL>;
+// .. end merge with /lhome1/pavol/git-repos/MATES/mates-parent/mates-grammars/data/noise/polite.jsgf:polite.
+
+// Start merge with /lhome1/pavol/git-repos/MATES/mates-parent/mates-grammars/data/mike-voice-loop/demo.jsgf:demo ...
+<demo.content> = <demo.content_lim> | <demo.content_inv> | <demo.content_copy> | <demo.content_repeat> | <demo.content_roll>;
+<demo.content_lim> = change limits;
+<demo.content_inv> = investigate parameter ( <NULL> | <parameter.s2k_param> );
+<demo.content_repeat> = repeat ( that | <NULL> );
+<demo.content_copy> = wilco | proceed | copy ;
+<demo.content_roll> = roll call ;
+<demo.content_others> = 
+	ready for operations | 
+	All stations we have AOS | 
+	Parameter S2KTP313 is out of limits Investigation needed |
+	we have to change limits |
+	Please set limits 0 to 0 for Parameter S2KTP313 |
+	Copy change limits for s2KTP313 to min 0 and max 0 | 
+	Limits changed Please verify |
+	copy standby |
+	SOM SOE Parameter now within limits Issue resolved ;
+// .. end merge with /lhome1/pavol/git-repos/MATES/mates-parent/mates-grammars/data/mike-voice-loop/demo.jsgf:demo.
+

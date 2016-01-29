@@ -1,0 +1,334 @@
+<!doctype html>
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en"> <![endif]-->
+<!--[if IE 9]>    <html class="no-js ie9" lang="en"> <![endif]-->
+<!-- Consider adding an manifest.appcache: h5bp.com/d/Offline -->
+<!--[if gt IE 9]><!--> <html class="no-js" lang="en" itemscope itemtype="http://schema.org/Product"> <!--<![endif]-->
+<head>
+	<meta charset="utf-8">
+
+	<!-- Use the .htaccess and remove these lines to avoid edge case issues.
+			 More info: h5bp.com/b/378 -->
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+	<title>MATES trainee</title>
+	<meta name="description" content="" />
+	<meta name="keywords" content="" />
+	<meta name="author" content="">
+
+	<link rel="shortcut icon" href="favicon.png" type="image/x-icon" />
+
+	<!-- Facebook Metadata /-->
+	<meta property="fb:page_id" content="" />
+	<meta property="og:image" content="" />
+	<meta property="og:description" content=""/>
+	<meta property="og:title" content=""/>
+
+	<!-- Google+ Metadata /-->
+	<meta itemprop="name" content="">
+	<meta itemprop="description" content="">
+	<meta itemprop="image" content="">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+	<!-- We highly recommend you use SASS and write your custom styles in sass/_custom.scss.
+		 However, there is a blank style.css in the css directory should you prefer -->
+	<link rel="stylesheet" href="css/gumby.css">
+	<!-- <link rel="stylesheet" href="css/style.css"> -->
+
+	<script src="js/libs/modernizr-2.6.2.min.js"></script>
+</head>
+
+<body>
+
+	<div class="valign row not-on-phones">
+		<div><h1>MATES</h1></div> <div><h2/><h2>trainee</h2></div>
+	</div>
+
+	<div class="valign row only-on-phones">
+		<div style="float:right"><h4>MATES mobile</h4></div>
+	</div>
+
+	<div class="row" style="display:none;">
+		<h4> <span id="server"> </span> (<span id="status"> starting </span>) </h4>
+	</div>
+
+	<div id="loop-tables_and_graph" class="row">
+
+		<div id="loop-tables" class="seven columns">
+			<section class="tabs" >
+
+			    <ul class="tab-nav">
+				<li class="active"><a href="#">Loop 1</a></li>
+				<li> <a href="#">Loop 2</a></li>
+			    </ul>
+
+			    <div class="tab-content active">
+				<p><br/></p>
+				<div id='loop1-div'  ><table class="loop">
+					<thead>
+					</thead>
+					<tbody id='loop1-table'>
+					</tbody>
+				</table></div>
+			    </div>
+
+			    <div class="tab-content">
+				<p>Only one loop is supported at the momment, sorry.</p>
+			    </div>
+
+			</section>
+
+		</div>
+
+		<div id="graph" class="five columns not-on-phones" >
+		</div>
+
+
+	</div>
+
+
+	<div class="row"  style = "min-height:40px;">
+		<div id="details" class="hideme" >
+			<div class="one columns">
+			</div>
+			<div class="eleven columns">
+				<select id='id' onchange="on_id_select()" >
+				  <option value="som">SOM</option>
+				  <option value="soe">SOE</option>
+				  <option value="spacon">SPACON</option>
+				</select>
+				<select id='intent'>
+				  <option value="tell">tell</option>
+				  <option value="untell">untell</option>
+				  <option value="ask">ask</option>
+				</select>
+				<select id='to'>
+				  <option value="loop">LOOP 1</option>
+				  <option value="spacon">SPACON</option>
+				  <option value="soe">SOE</option>
+				  <option value="som">SOM</option>
+				</select>
+				<select id='aloud'>
+				  <option value="silently">silently</option>
+				  <option value="aloud">aloud</option>
+				</select>
+				</span><span class="recognition" id="rec-output"></span>
+			</div>
+		</div>
+	</div>
+
+	<div class="row">
+		<div style="display: inline-block; vertical-align: top;" class="one columns">
+			<div id="startStopBtn-div" class="medium oval btn not-on-phones">
+				<button id="startStopBtn" ><i class="icon-mic"></i></button>
+			</div>
+			<div id="startBtn-div" class="medium oval btn only-on-phones">
+				<button id="startBtn" ><i class="icon-mic"></i></button>
+			</div>
+			<div id="stopBtn-div" class="medium danger oval btn only-on-phones" style="display: none">
+				<button id="stopBtn" ><i class="icon-stop"></i></button>
+			</div>
+			<div id="interruptBtn-div" class="medium danger oval btn" style="display: none">
+				<button id="interruptBtn" onclick="onInterrupt()"><i class="icon-cancel"></i></button>
+			</div>
+		</div>
+
+		<div  style="display: inline-block;" class="eleven columns">
+			<div class="prepend append field">
+			    <button class="adjoined toggle not-on-phones" gumby-trigger="#details"><i class="icon-search"></i></button>
+			    <input id='msg' class="text input" type="text" placeholder="voiceloop messge" />
+			    <div class="medium primary btn"><button  id="sendBtn" onclick="onSend()"><i class="icon-sound"></i></button></div>
+			</div>
+		</div>
+	</div>
+
+	<div class="row bottom-offset not-on-phones">
+		<p/>
+	</div>
+
+
+	<div class="row bottom not-on-phones" >
+		<section class="tabs" >
+
+		    <ul class="tab-nav">
+			<li class = "active"> <a href="#">Help</a></li>
+			<li> <a href="#">Scenario</a></li>
+			<li> <a href="#">RabbitMQ</a></li>
+			<li> <a href="#">Client log</a></li>
+			<li> <a href="#">Examples</a></li>
+			<li> <a href="#">Core</a></li>
+		    </ul>
+
+
+
+		    <div class="tab-content active" >
+			<p>
+			This client allows you to communicate with the MATES training system. 
+			Once you have enabled the microphone access and the mic button<i style="color: green" class="icon-mic"></i> gets <span style="color: green">green</span>, 
+			you can simply push the button, speak the message, and release the button.
+			Your spoken message will be converted to text and send automatically after a 3s wait period. 
+			During this period you can cancel the process (<span style="color: red">red</span><i style="color: red" class="icon-cancel"></i>),
+			edit the message field or cut the waiting by hitting the <span style="color: blue">blue</span> send button<i style="color: blue" class="icon-sound"></i>. 
+			Of course, you can directly enter a message and hit send as well (you can also edit all details of the spech act as well as observe the current
+			utterence recognition by clicking on the details button <i style="color: gray" class="icon-search"></i>).
+			</p>				
+			<p>
+			The connection and registration are handled automatically. When a connection is active, the loop circle is <span style="color: green">green</span>
+			(<span style="color: gray">gray</span> for no connection). 
+			When agents speak, they appear as additional circles connected to the
+			loop and their messages are displayed next to them. The loop communication is protocolled also
+			in the corresponding loop tab above. The tabs in the bottom section (here) allow you to further monitor what is going on behind the scenes in more detail. 
+			</p>	
+			<p>
+			You can see the expected messages in the scenario tab, where you can also start<i style="color: green" class="icon-play"></i>/stop<i style="color: red" class="icon-stop"></i>  and 				restart<i style="color: #f6b83f" class="icon-ccw"></i> the training scenario.
+			</p>			
+
+		    </div>
+
+
+		    <div class="tab-content" >
+			<div class="valign row slim">
+				<div class="five columns">
+					<h3>
+					Voiceloop demo scenario
+					</h3>
+				</div>
+				<div class="three columns">
+					<div class="prepend append field" style="height:25px;">
+					    <div class="small secondary btn"><button onclick="onScenario('start')"><i class="icon-play"></i></button></div>
+					    <div class="small danger btn"><button onclick="onScenario('stop'); window.location.reload();"><i class="icon-stop"></i></button></div>
+					    <div class="small warning btn"><button onclick="onScenario('restart'); window.location.reload();"><i class="icon-ccw"></i></button></div>
+					</div>
+				</div>
+			</div>
+			<p/>
+			<div id="scenario-div"><table class="scenario">
+					<thead>
+					</thead>
+					<tbody id='scenario-table'>
+					</tbody>
+			</table></div>
+		    </div>
+
+		    <div class="tab-content bottom" id="output">
+		    </div>
+
+		    <div class="tab-content bottom" id="current-status">
+			Loading page...
+		    </div>
+
+		    <iframe class="tab-content bottom twelve columns" src="import/voiceloop.examples.count.txt" seamless>
+		    </iframe>
+
+		    <div class="tab-content bottom">
+			    <input type="checkbox" checked="true" id="core_only" onclick="onCoreOnlyToggle('core_only')"> use only core grammar for speech recognition</input>
+			    <iframe class="twelve columns" src="import/core/voiceloop.examples.count.txt" seamless>
+			    </iframe>
+		    </div>
+
+		</section>
+	</div>
+
+
+	<!-- Grab Google CDN's jQuery, fall back to local if offline -->
+	<!-- 2.0 for modern browsers, 1.10 for .oldie -->
+	<script>
+	var oldieCheck = Boolean(document.getElementsByTagName('html')[0].className.match(/\soldie\s/g));
+	if(!oldieCheck) {
+	  document.write('<script src="js/libs/jquery-2.0.2.min.js"><\/script>');
+	} else {
+	  document.write('<script src="js/libs/jquery-1.10.1.min.js"><\/script>');
+	}
+	</script>
+
+	<!--
+	Include gumby.js followed by UI modules followed by gumby.init.js
+	Or concatenate and minify into a single file -->
+	<script gumby-touch="js/libs" src="js/libs/gumby.js"></script>
+	<script src="js/libs/ui/gumby.retina.js"></script>
+	<script src="js/libs/ui/gumby.fixed.js"></script>
+	<script src="js/libs/ui/gumby.skiplink.js"></script>
+	<script src="js/libs/ui/gumby.toggleswitch.js"></script>
+	<script src="js/libs/ui/gumby.checkbox.js"></script>
+	<script src="js/libs/ui/gumby.radiobtn.js"></script>
+	<script src="js/libs/ui/gumby.tabs.js"></script>
+	<script src="js/libs/ui/gumby.navbar.js"></script>
+	<script src="js/libs/ui/jquery.validation.js"></script>
+	<script src="js/libs/gumby.init.js"></script>
+
+	<!--
+	Google's recommended deferred loading of JS
+	gumby.min.js contains gumby.js, all UI modules and gumby.init.js
+
+	Note: If you opt to use this method of defered loading,
+	ensure that any javascript essential to the initial
+	display of the page is included separately in a normal
+	script tag. -->
+
+	<script type="text/javascript">
+	function downloadJSAtOnload() {
+	var element = document.createElement("script");
+	element.src = "js/libs/gumby.min.js";
+	document.body.appendChild(element);
+	}
+	if (window.addEventListener)
+	window.addEventListener("load", downloadJSAtOnload, false);
+	else if (window.attachEvent)
+	window.attachEvent("onload", downloadJSAtOnload);
+	else window.onload = downloadJSAtOnload;
+	</script> 
+
+	<script src="js/gumby/plugins.js"></script>
+	<script src="js/gumby/main.js"></script>
+
+	<!-- Change UA-XXXXX-X to be your site's ID -->
+	<!--<script>
+	window._gaq = [['_setAccount','UAXXXXXXXX1'],['_trackPageview'],['_trackPageLoadTime']];
+	Modernizr.load({
+	  load: ('https:' == location.protocol ? '//ssl' : '//www') + '.google-analytics.com/ga.js'
+	});
+	</script>-->
+
+	<!-- Prompt IE 6 users to install Chrome Frame. Remove this if you want to support IE 6.
+	   chromium.org/developers/how-tos/chrome-frame-getting-started -->
+	<!--[if lt IE 7 ]>
+	<script src="//ajax.googleapis.com/ajax/libs/chrome-frame/1.0.3/CFInstall.min.js"></script>
+	<script>window.attachEvent('onload',function(){CFInstall.check({mode:'overlay'})})</script>
+	<![endif]-->
+
+
+
+	<!-- grammars (main and core) for voicellop -->
+	<script src="import/voiceloop.words.js"></script>
+	<script src="import/voiceloop.fsg.js"></script>
+	<script src="import/core/voiceloop.fsg.js"></script>
+
+	<!-- stt: pocketsphinx.js -->
+	<script src="js/audioRecorder.js"></script>
+	<script src="js/libs/callbackManager.js"></script>
+
+	<!-- tts: meSpeak.js  -->
+	<script type="text/javascript" src="js/libs/mespeak.js"></script>
+
+	<!-- visuals: d3.js 
+	<script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script> -->
+	<script src="js/libs/d3.min.js" charset="utf-8"></script>
+
+        <!-- config stt handling and controls -->
+	<script src="js/config.js"></script> 
+	<script src="js/main_trainee.js"></script> 
+	<script src="js/messages.js"></script>	<!-- minimal message handling wrapper-->
+	<script src="js/d3-agents.js" charset="utf-8"></script> <!-- dynamic visualisation -->
+	<script src="js/stt.js"></script>  <!-- stt handling -->
+
+
+
+
+
+
+
+  </body>
+</html>

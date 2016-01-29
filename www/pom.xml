@@ -1,0 +1,67 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.cgi.mates</groupId>
+	<artifactId>mates-web-client</artifactId>
+	<version>1.0</version>
+	<name>MATES Web Client</name>
+	<url>http://maven.apache.org</url>
+	<properties>
+		<camel.version>2.13.0</camel.version>
+		<mates.docker.images.version>0.9.8.6.0</mates.docker.images.version>
+		<mates.maven.repository>http://docker.asgard.groupinfra.de:8081</mates.maven.repository>
+	</properties>
+	<dependencies>
+		<dependency>
+			<groupId>com.cgi.mates</groupId>
+			<artifactId>mates-grammars</artifactId>
+			<version>1.0</version>
+		</dependency>
+	</dependencies>
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.codehaus.mojo</groupId>
+				<artifactId>exec-maven-plugin</artifactId>
+				<version>1.3</version>
+				<executions>
+					<execution>
+						<phase>install</phase>
+						<goals>
+							<goal>exec</goal>
+						</goals>
+						<id>make</id>
+                                		<configuration>
+		                                        <executable>make</executable>
+                		                </configuration>
+					</execution>
+					<execution>
+						<goals>
+							<goal>exec</goal>
+						</goals>
+						<phase>install</phase>
+						<id>prepare</id>
+						<configuration>
+							<executable>./prepareDockerImage.sh</executable>
+						</configuration>
+					</execution>
+					<execution>
+						<goals>
+							<goal>exec</goal>
+						</goals>
+						<phase>install</phase>
+						<id>build</id>
+						<configuration>
+							<executable>../../docker/dockerAPI.sh</executable>
+							<arguments>
+								<argument>-i mates/web-client:${mates.docker.images.version}</argument>
+								<argument>-d ../../docker/mates-web-client</argument>
+								<argument>build</argument>
+							</arguments>
+						</configuration>
+					</execution>
+				</executions>
+			</plugin>
+		</plugins>
+	</build>
+</project>

@@ -1,0 +1,29 @@
+<h1 id="mates-web-client">MATES web client</h1>
+<p>Based on Gumby Framework which is published under MIT license (see below) and has following dependencies:</p>
+<ul>
+<li><a href="https://github.com/nex3/sass">Sass</a> - Nathan Weizenbaum</li>
+<li><a href="https://github.com/chriseppstein/compass">Compass</a> - Chris Eppstein</li>
+<li><a href="https://github.com/Team-Sass/modular-scale">Modular Scale</a> - Scott Kellum <em>Note: Please use modular scale 1.0.6, 2.x has not been integrated yet</em></li>
+<li><a href="http://fittextjs.com/">FitText</a> - Paravel</li>
+<li><a href="http://jquery.com/">jQuery</a></li>
+<li><a href="http://modernizr.com/">Modernizr</a></li>
+<li>./import - Which is a direcotry that needs to contain definitions for the voiceloop grammar (an FST as a json object), the used words and a list of core utterences in /import/core/voiceloop.examples.count.txt. It is by default filled with a snapshot of the export directory created by running make un the voiceloop grammar definition in the mates-grammars module. Easiest way to obtain the files is to copy the export folder from the desired grammar (see mates-grammars). However, the repo contains a fully functional scenario (with core, fst and wordlist).</li>
+</ul>
+<p>Further, the following js libs are heavily used:</p>
+<ul>
+<li><a href="http://syl22-00.github.io/pocketsphinx.js/">pocketsphinx.js</a> <em>for stt</em></li>
+<li><a href="http://www.masswerk.at/mespeak/">mespeak.js</a> <em>for tts</em></li>
+<li><a href="http://www.http://d3js.org/">d3.js</a> <em>for data-driven visualization</em></li>
+</ul>
+<p>The web client itself is a plain html/js/<em>css</em> bundle, where only the <em>css</em> part is dynamically compiled from the <em>sass</em> sources. The most important files are probably these two:</p>
+<ul>
+<li><strong>js/config.js</strong> <em>Configuration, currently contains the websocket address (for the backend) and parameters for the voices.</em></li>
+<li><strong>js/main_trainee.js</strong> <em>The main js script (defines onload(), establishes connections, simply the main entry point.</em></li>
+</ul>
+<p>To modify the look and feel have a look at <strong>sass/</strong>_<strong>custom.scss</strong> as a starting point. Note that so far for the color-agent assignments we use also direct gumby presets (like info or warn color/class), so you need to know what you are doing and possibly update the <strong>.js</strong> files as well.</p>
+<p><em>The main source for this text is README.md, please modify it and run make to update the documentation (possibly cut&amp;paste to internal wiki pages from README.wiki).</em></p>
+<p><em>This project itself, though open for anyone who looks for inspiration is not &quot;published&quot; yet as the licensing is not clear yet (in other words look but don't touch or copy yet, please).</em></p>
+<p><strong>MIT Open Source License</strong></p>
+<p>Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated<br />documentation files (the &quot;Software&quot;), to deal in the Software without restriction, including without limitation the<br />rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit<br />persons to whom the Software is furnished to do so, subject to the following conditions:</p>
+<p>The above copyright notice and this permission notice shall be included in all copies or substantial portions of the<br />Software.</p>
+<p>THE SOFTWARE IS PROVIDED &quot;AS IS&quot;, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE<br />WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR<br />COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR<br />OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.</p>
