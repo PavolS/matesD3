@@ -68,10 +68,20 @@
 	return true;
   };
 
+  function fakeWebSocket() {
+	var self = this;
+	self.send = function(message) { writeStatus("fake sent - " + message) };
+  }
+
   function openWebSocket(andSend)
   {
     writeStatus("connecting...");
-    websocket = new WebSocket(wsUri);
+    if ( wsHost == "" ) {
+	websocket = new fakeWebSocket();
+	onOpen(null, false);
+    } else {
+	websocket = new WebSocket(wsUri);
+    }
     websocket.onopen = function(evt) { onOpen(evt, andSend) };
     websocket.onclose = function(evt) { onClose(evt) };
     websocket.onmessage = function(evt) { onMessage(evt) };
