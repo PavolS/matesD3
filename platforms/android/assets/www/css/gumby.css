@@ -1695,7 +1695,7 @@ table.rounded thead th, table.rounded thead td, table.rounded caption + tbody tr
 .recognition.final { color: #ffffff; -webkit-animation: onFinalRec 5s; /* Chrome, Safari, Opera */ animation: onFinalRec 3s; }
 
 table.loop { width: 504px; }
-/* @media only screen and (min-width: 381px) and (max-width: 767px) { table.loop { width: 460.8px; } } */
+@media only screen and (min-width: 381px) and (max-width: 767px) { table.loop { width: 460.8px; } }
 @media only screen and (max-width: 380px) { table.loop { width: 266px; } }
 table.loop tr td:first-child { width: 60px; font-weight: bold; }
 table.loop tr td:nth-child(2) { width: 384px; font-weight: regular; }
@@ -1705,11 +1705,7 @@ table.loop tr td:nth-child(3) { width: 60px; font-weight: bold; }
 #scenario-div tr td:first-child { width: 60px; font-weight: bold; }
 #scenario-div tr td:nth-child(2) { width: 444px; font-weight: regular; }
 
-#loop-tables { overflow: hidden; max-height: 420px; }
-@media only screen and (min-width: 381px) and (max-width: 767px) { #loop-tables { max-height: 220px; min-height: 220px; } }
-@media only screen and (max-width: 380px) { #loop-tables { max-height: 320px; min-height: 320px; } }
-
-#loop1-div { overflow: auto; max-height: 300px; }
+#loop1-div { overflow: auto; max-height: 250px; }
 @media only screen and (min-width: 381px) and (max-width: 767px) { #loop1-div { max-height: 100px; min-height: 100px; } }
 @media only screen and (max-width: 380px) { #loop1-div { max-height: 200px; min-height: 200px; } }
 
@@ -1728,10 +1724,6 @@ table.loop tr td:nth-child(3) { width: 60px; font-weight: bold; }
 @media only screen and (max-width: 767px) { .not-on-phones { display: none !important; } }
 
 @media only screen and (min-width: 768px) { .only-on-phones { display: none !important; } }
-
-@media only screen and (max-width: 380px) { .not-on-portrait-phones { display: none !important; } }
-
-@media only screen and (min-width: 381px) and (max-width: 767px) { .not-on-landscape-phones { display: none !important; } }
 
 @media only screen and (min-width: 768px) { .text.input { width: 82.66667%; } }
 @media only screen and (min-width: 381px) and (max-width: 767px) { .text.input { width: 65.33333%; } }
